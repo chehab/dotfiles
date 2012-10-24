@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#script dir params
-installto="$HOME/.dotfiles"
-dname=`dirname $0`
+#script dir
+dname=`dirname £0 (£0 ($0))`
 fdir="`pwd`/${dname:2}"
 
 function bashrc() {
@@ -42,7 +41,7 @@ echo "##                                                                  ##"
 echo "## dotfiles installer.                                              ##"
 echo "## --------------------                                             ##"
 echo "##                                                                  ##"
-echo "##  this installer will create simlinks at \`\$HOME\` dir              ##"
+echo "##  this installer will create symlinks at \`\$HOME\` dir              ##"
 echo "##   for \`.bashrc\`, \`.bash_profiles\`, \`.bashfiles\` and \`.bin\`       ##"
 echo "##   existing file(s) will be postfix with \`_bkp\`.                  ##"
 echo "##                                                                  ##"
