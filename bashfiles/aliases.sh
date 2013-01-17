@@ -20,7 +20,8 @@ alias s="subl ."
 alias o="open"
 alias oo="open ."
 alias C="clear"
-alias bashreload='[ -n "$PS1" ] && source ~/.bash_profile'
+alias dbu="sh ~/.bashfiles/../Dropbox-Uploader/dropbox-uploader.sh"
+alias bashreload='[ -n "$PS1" ] && source ~/.bash_profile && echo Bash Reloaded.'
 alias hibash="Hi you!"
 
 # Detect which `ls` flavor is in use
